@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#5B2A86"/>
+      <stop offset="100%" stop-color="#2D123F"/>
+    </linearGradient>
+  </defs>
+
+  <!-- background -->
+  <rect width="180" height="180" rx="36" fill="url(#bg)"/>
+
+  <!-- gold ring -->
+  <circle cx="90" cy="90" r="70" fill="none" stroke="#D4AF37" stroke-width="4"/>
+
+  <!-- lily -->
+  <path d="M90 35
+           C78 55,74 70,74 90
+           C74 118,82 132,90 145
+           C98 132,106 118,106 90
+           C106 70,102 55,90 35Z"
+        fill="#D4AF37"/>
+
+  <!-- side petals -->
+  <path d="M55 70 C68 78,74 92,76 110 C58 106,46 92,45 78 C48 74,51 72,55 70Z"
+        fill="#6B4423"/>
+  <path d="M125 70 C112 78,106 92,104 110 C122 106,134 92,135 78 C132 74,129 72,125 70Z"
+        fill="#6B4423"/>
+
+  <!-- LH monogram -->
+  <text x="90" y="120"
+        text-anchor="middle"
+        font-size="34"
+        font-family="Georgia"
+        font-weight="bold"
+        fill="#FAF7F0">
+    LH
+  </text>
+</svg>
